@@ -17,7 +17,9 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import sklearn
 import nltk
-nltk.download('stopwords')
+
+nltk.download('punkt')
+
 
 
 
