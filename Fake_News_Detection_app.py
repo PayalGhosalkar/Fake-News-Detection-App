@@ -21,6 +21,7 @@ import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
 
+nltk.data.path = ['/home/appuser/nltk_data', '/home/adminuser/venv/nltk_data']
 
 
 
