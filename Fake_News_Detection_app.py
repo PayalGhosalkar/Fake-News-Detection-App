@@ -5,8 +5,7 @@ Created on Wed Aug 16 23:54:21 2023
 @author: Gujar
 """
 import nltk
-nltk.data.path.append('/home/appuser/nltk_data')
-nltk.data.path.append('/home/adminuser/venv/nltk_data')
+nltk.download('omw-1.4', quiet=True)
 
 import pickle
 import re
