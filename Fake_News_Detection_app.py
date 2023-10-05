@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 
 
 
-loaded_model = pickle.load(open('C:/Users/Gujar/Desktop/Projects/Data Science/Fake News Detection/News_Detection_Trained_Model.sav', 'rb'))
-loaded_vectorizer = pickle.load(open('C:/Users/Gujar/Desktop/Projects/Data Science/Fake News Detection/News_Detection_Tfidf_Vectorizer.sav', 'rb'))
+loaded_model = pickle.load(open('News_Detection_Trained_Model.sav', 'rb'))
+loaded_vectorizer = pickle.load(open('News_Detection_Tfidf_Vectorizer.sav', 'rb'))
 
 class Preprocessing:
     
