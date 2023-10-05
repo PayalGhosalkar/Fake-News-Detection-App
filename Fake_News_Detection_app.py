@@ -4,6 +4,9 @@ Created on Wed Aug 16 23:54:21 2023
 
 @author: Gujar
 """
+import nltk
+nltk.data.path.append('/home/appuser/nltk_data')
+nltk.data.path.append('/home/adminuser/venv/nltk_data')
 
 import pickle
 import re
@@ -16,10 +19,7 @@ import streamlit as st
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 import sklearn
-import nltk
 
-nltk.download('punkt')
-nltk.download('wordnet')
 
 nltk.data.path = ['/home/appuser/nltk_data', '/home/adminuser/venv/nltk_data']
 
