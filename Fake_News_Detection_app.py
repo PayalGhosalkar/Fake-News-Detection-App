@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 16 23:54:21 2023
 
-@author: Gujar
-"""
 import nltk
 nltk.download('omw-1.4', quiet=True)
 
